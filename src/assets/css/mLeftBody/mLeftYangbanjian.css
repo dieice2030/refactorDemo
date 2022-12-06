@@ -1,0 +1,133 @@
+.ih_yangbanjianBlock{
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.template-listInfo-item {
+    width: 100%;
+    height: 150px;
+    background-color: #FFF;
+    margin-bottom: 10px;
+}
+.template-listInfo-item > div {
+    float: left;
+}
+.listInfo-item-left {
+    width: 60%;
+    height: 100%;
+    background-color: #F0F;
+    position: relative;
+}
+.listInfo-item-left>img {
+    width: 100%;
+    height: 100%;
+}
+.listInfo-item-left button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.listInfo-item-left:hover button{
+	display: block;
+}
+
+.listInfo-item-right {
+    width: 40%;
+    height: 100%;
+    background-color: #FFF;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.listInfo-item-icon>i {
+    float: right;
+    cursor: pointer;
+    color: #666;
+}
+.listInfo-item-button .el-button {
+    float: right;
+    padding: 7px 15px;
+    margin-top: 15px;
+}
+.listInfo-item-name-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.listInfo-item-name-area {
+    font-size: 14px;
+}
+
+.mLeftListInfomodel{
+	position: absolute;
+    left: 319px;
+    top: 175px;
+    width: 550px;
+    height: 550px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.3);
+    z-index: 10;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 200;
+    border-radius: 5px;
+    display: none;
+}
+.mLeftListInfomodel .tabButton{
+	display: flex;
+	justify-content: space-around;
+}
+.mLeftListInfomodelTab_1,.mLeftListInfomodelTab_2{
+	width: 100%;
+	height: 483px;
+    margin-top: 10px;
+}
+
+.mLeftListInfomodel>.tabButton button{
+	width: 100%;
+}
+.mLeftListInfomodel>.tabButton button.active{
+    background: #FFF;
+    border-color: #71CC53;
+    color: #71CC53;
+}
+.listInfoImg{
+    width: 100%;
+    height: 408px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.listInfoImg>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.listInfoItemBtn{
+	width: 100%;
+	height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listInfoItemBtnImg>img{
+    margin-left: 5px;
+    width: 80px;
+    height: 55px;
+    border: 3px solid #FFF;
+    /*transition: border 0.3s;*/
+    cursor: pointer;
+}
+.listInfoItemBtnImg>img:hover,.listInfoItemBtnImg>img.active{
+	border: solid 3px #70cd53;
+}
+.mLeftInfoListImg>li{
+	width: 96px;
+	height: 96px;
+	margin: 5px;
+	display: inline-block;
+}
+.mLeftInfoListImg>li>img{
+	width: 100%;
+	height: 100%;
+}
